@@ -47,5 +47,3 @@
   * ❌ STOP | STOP All Attacks
   * 🌠 TOOLS | Tools Console
   * 👑 HELP | Show Usge Script
-
-* Layer4 DDoS Script
