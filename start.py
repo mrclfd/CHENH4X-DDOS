@@ -28,9 +28,9 @@ def start_attack(method, threads, event, socks_type):
     if (cmethod != "HIT") and (cmethod not in l4) and (cmethod not in l3) and (cmethod != "OSTRESS"):
         out_file = str("files/proxys/" + sys.argv[5])
         proxydl(out_file, socks_type)
-        print("{} -> Attack Started To {}:{} For {} Seconds With {}/{} Proxy <- ".format(method, target, port, sys.argv[7],len(proxies), str(nums)))
+        print("[{} METHOD USED] -> Attack Started To {}:{} For {} Seconds With {}/{} Proxy <- ".format(method, target, port, sys.argv[7],len(proxies), str(nums)))
     else:
-        print("{} -> Attack Started To {}:{} For {} Seconds <- ".format(method, target, port, sys.argv[7]))
+        print("[{} METHOD USED] -> Attack Started To {}:{} For {} Seconds <- ".format(method, target, port, sys.argv[7]))
     try:
         if method == "post":
             for _ in range(threads):
@@ -1298,7 +1298,7 @@ def proxydl(out_file, socks_type):
     if socks_type == 5:
         socktyper = "SOCKS5"
 
-    print("downloading {}'s proxy plz wait".format(socktyper))
+    print("Downloading and Acquiring {}'s private proxies.".format(socktyper))
     downloadsocks(choice)
     proxies = open(str(out_file)).readlines()
     check_list(out_file)
