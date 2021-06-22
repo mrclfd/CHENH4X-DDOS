@@ -1,5 +1,3 @@
-<p align="center"><img src="./screenshot/logo.ico" width="150px" height="150px" alt="aventium softworks"></p>
-
 <h1 align="center">CHENH4X - DDoS Attack Script With 36 Method (MODIFIED VERSION OF MHDDOS)</h1>
 
 ## Features And Method
@@ -51,14 +49,3 @@
   * 👑 HELP | Show Usge Script
 
 * Layer4 DDoS Script
-
-### Getting Started
-
-**Requirements**
-
-* [Python3][python3]
-* requests
-* PySocks
-* cfscrape
-* icmplib
-* scapy
